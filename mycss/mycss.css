@@ -484,10 +484,21 @@ div#ivisitor a {
 
   /* 欢迎ip信息 */
 #welcome-info {
+  width: 289px;
+  height: 400px;
   background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
   border-radius: 18px;
   padding: 8px;
 }
 [data-theme="dark"] #welcome-info {
   background: #212121;
+}
+
+.recent-post-info{
+  text-align: center;
+
+}
+.recent-post-item{
+  border-radius: 20px !important;
+  background-color: rag(225,225,225,0.9) !important;
 }
