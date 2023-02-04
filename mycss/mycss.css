@@ -466,9 +466,9 @@ div#ivisitor a {
     overflow: hidden;
   }
 
-  .article-content{
+  /* .article-content{
     background-color: #9e9e9eb5 !important;
-  }
+  } */
 
   /* .recent-post-info::after{
     content: "";
