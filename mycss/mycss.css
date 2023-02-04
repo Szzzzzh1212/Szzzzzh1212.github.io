@@ -485,8 +485,9 @@ div#ivisitor a {
   /* 欢迎ip信息 */
 #welcome-info {
   width: 289px;
-  height: 400px;
-  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
+  height: 200px;
+  background-color: white;
+  color: pink;
   border-radius: 18px;
   padding: 8px;
 }
