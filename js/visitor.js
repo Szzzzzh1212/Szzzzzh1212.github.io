@@ -1,5 +1,5 @@
 // 侧边栏访问统计
-fetch('https://v6-widget.51.la/v6/JnHw7yNkc1XsvRUB/quote.js').then(res => res.text()).then((data) => {
+fetch('https://v6-widget.51.la/v6/JxPLxSVg5ke3qxs1/quote.js?theme=#000000,#333333,#9C8C8C,#333333,#FFFFFF,#1690FF,12&col=true&f=12').then(res => res.text()).then((data) => {
 	let title = ['最近活跃访客', '今日访问人数', '今日访问量', '昨日人数', '昨日访问量', '本月访问量', '总访问量']
 	let num = data.match(/(?<=<\/span><span>).*?(?=<\/span><\/p>)/g)
 	let s = document.querySelectorAll('#visitor .content')[0]
