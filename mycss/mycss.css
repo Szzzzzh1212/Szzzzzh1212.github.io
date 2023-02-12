@@ -503,5 +503,14 @@ div#ivisitor a {
 }
 .recent-post-item{
   border-radius: 20px !important;
+  border: 3px solid gainsboro;
   background-color: rag(225,225,225,0.9) !important;
+}
+
+#aside-content .card-widget{
+  border-radius: 20px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  color:#66ccff!important; /*自己改*/
 }
